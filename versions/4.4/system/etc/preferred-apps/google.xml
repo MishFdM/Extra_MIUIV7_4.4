@@ -25,143 +25,6 @@
     the other entries here for guides.
  -->
 <preferred-activities>
-    <item name="com.google.android.apps.plus/.phone.UrlGatewayActivity">
-        <filter>
-            <action name="android.intent.action.VIEW" />
-            <cat name="android.intent.category.DEFAULT" />
-            <cat name="android.intent.category.BROWSABLE" />
-            <scheme name="https" />
-            <auth host="plus.google.com" />
-            <path prefix="/u/" />
-        </filter>
-    </item>
-    <item name="com.google.android.apps.plus/.phone.UrlGatewayActivity">
-        <filter>
-            <action name="android.intent.action.VIEW" />
-            <cat name="android.intent.category.DEFAULT" />
-            <cat name="android.intent.category.BROWSABLE" />
-            <scheme name="http" />
-            <auth host="plus.google.com" />
-            <path literal="/" />
-        </filter>
-    </item>
-    <item name="com.google.android.apps.plus/.phone.UrlGatewayActivity">
-        <filter>
-            <action name="android.intent.action.VIEW" />
-            <cat name="android.intent.category.DEFAULT" />
-            <cat name="android.intent.category.BROWSABLE" />
-            <scheme name="http" />
-            <auth host="plus.google.com" />
-            <path prefix="/u/" />
-        </filter>
-    </item>
-    <item name="com.google.android.apps.plus/.phone.UrlGatewayActivity">
-        <filter>
-            <action name="android.intent.action.VIEW" />
-            <cat name="android.intent.category.DEFAULT" />
-            <cat name="android.intent.category.BROWSABLE" />
-            <scheme name="https" />
-            <auth host="plus.google.com" />
-            <path literal="/" />
-        </filter>
-    </item>
-    <item name="com.google.android.apps.maps/com.google.android.maps.MapsActivity">
-        <filter>
-            <action name="android.intent.action.VIEW" />
-            <cat name="android.intent.category.BROWSABLE" />
-            <cat name="android.intent.category.DEFAULT" />
-            <scheme name="http" />
-            <auth host="maps.google.com" />
-            <path literal="/" />
-        </filter>
-    </item>
-    <item name="com.google.android.apps.maps/com.google.android.maps.MapsActivity">
-        <filter>
-            <action name="android.intent.action.VIEW" />
-            <cat name="android.intent.category.BROWSABLE" />
-            <cat name="android.intent.category.DEFAULT" />
-            <scheme name="https" />
-            <auth host="maps.google.com" />
-            <path literal="/" />
-        </filter>
-    </item>
-    <item name="com.google.android.apps.maps/com.google.android.maps.MapsActivity">
-        <filter>
-            <action name="android.intent.action.VIEW" />
-            <cat name="android.intent.category.BROWSABLE" />
-            <cat name="android.intent.category.DEFAULT" />
-            <scheme name="http" />
-            <auth host="maps.google.com" />
-            <path prefix="/maps" />
-        </filter>
-    </item>
-    <item name="com.google.android.apps.maps/com.google.android.maps.MapsActivity">
-        <filter>
-            <action name="android.intent.action.VIEW" />
-            <cat name="android.intent.category.BROWSABLE" />
-            <cat name="android.intent.category.DEFAULT" />
-            <scheme name="https" />
-            <auth host="maps.google.com" />
-            <path prefix="/maps" />
-        </filter>
-    </item>
-    <item name="com.google.android.apps.maps/com.google.android.maps.MapsActivity">
-        <filter>
-            <action name="android.intent.action.VIEW" />
-            <cat name="android.intent.category.BROWSABLE" />
-            <cat name="android.intent.category.DEFAULT" />
-            <scheme name="geo" />
-        </filter>
-    </item>
-    <item name="com.android.vending/com.google.android.finsky.activities.MainActivity">
-        <filter>
-            <action name="android.intent.action.VIEW" />
-            <cat name="android.intent.category.BROWSABLE" />
-            <cat name="android.intent.category.DEFAULT" />
-            <scheme name="https" />
-            <auth host="play.google.com" />
-            <path prefix="/store" />
-        </filter>
-    </item>
-    <item name="com.android.vending/com.google.android.finsky.activities.MainActivity">
-        <filter>
-            <action name="android.intent.action.VIEW" />
-            <cat name="android.intent.category.BROWSABLE" />
-            <cat name="android.intent.category.DEFAULT" />
-            <scheme name="http" />
-            <auth host="play.google.com" />
-            <path prefix="/store" />
-        </filter>
-    </item>
-    <item name="com.google.android.youtube/.app.honeycomb.Shell$WatchActivity">
-        <filter>
-            <action name="android.intent.action.VIEW" />
-            <cat name="android.intent.category.BROWSABLE" />
-            <cat name="android.intent.category.DEFAULT" />
-            <scheme name="http" />
-            <auth host="www.youtube.com" />
-            <path prefix="/watch" />
-        </filter>
-    </item>
-    <item name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity">
-        <filter>
-            <action name="android.intent.action.VIEW" />
-            <cat name="android.intent.category.DEFAULT" />
-            <cat name="android.intent.category.BROWSABLE" />
-            <scheme name="http" />
-            <scheme name="https" />
-            <scheme name="content" />
-            <scheme name="file" />
-            <type name="image/bmp" />
-            <type name="image/jpeg" />
-            <type name="image/gif" />
-            <type name="image/png" />
-            <type name="image/webp" />
-            <type name="image/x-ms-bmp" />
-            <type name="image/vnd.wap.wbmp" />
-            <type name="application/vnd.google.panorama360+jpg" />
-        </filter>
-    </item>
     <item name="com.google.android.apps.plus/.editor.PlusEditorActivity">
         <filter>
             <action name="android.intent.action.EDIT" />
@@ -195,35 +58,44 @@
             <cat name="android.intent.category.DEFAULT" />
         </filter>
     </item>
-    <item name="com.google.android.apps.plus/.phone.VideoViewActivity">
+    <item name="com.google.android.apps.docs.editors.sheets/com.google.android.apps.docs.editors.trix.quicksheet.QuickSheetDocumentOpenerActivityAlias">
         <filter>
-            <action name="android.intent.action.VIEW" />
+            <action name="android.intent.action.EDIT" />
             <cat name="android.intent.category.DEFAULT" />
-            <cat name="android.intent.category.BROWSABLE" />
-            <scheme name="http" />
-            <scheme name="https" />
-            <scheme name="content" />
-            <scheme name="file" />
-            <type name="video/mpeg4" />
-            <type name="video/mp4" />
-            <type name="video/3gp" />
-            <type name="video/3gpp" />
-            <type name="video/3gpp2" />
-            <type name="video/webm" />
-            <type name="video/avi" />
-            <type name="audio/x-mpegurl" />
-            <type name="audio/mpegurl" />
-            <type name="application/sdp" />
-            <type name="application/vnd.apple.mpegurl" />
-            <type name="application/x-mpegurl" />
+            <type name="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
+            <type name="application/vnd.ms-excel.sheet.macroenabled.12" />
+            <type name="application/vnd.ms-excel" />
+            <type name="application/vnd.ms-excel.addin.macroenabled.12" />
+            <type name="application/vnd.ms-excel.template.macroenabled.12" />
+            <type name="application/vnd.openxmlformats-officedocument.spreadsheetml.template" />
+            <type name="application/x-msexcel" />
         </filter>
     </item>
-    <item name="com.google.android.apps.plus/.phone.VideoViewActivity">
-        <filter>
-            <action name="android.intent.action.VIEW" />
-            <cat name="android.intent.category.BROWSABLE" />
+    <item name="com.google.android.apps.docs.editors.docs/com.google.android.apps.docs.editors.kix.quickword.QuickWordDocumentOpenerActivityAlias">
+      <filter>
+            <action name="android.intent.action.EDIT" />
             <cat name="android.intent.category.DEFAULT" />
-            <scheme name="rtsp" />
-        </filter>
+            <type name="application/vnd.ms-word" />
+            <type name="application/vnd.openxmlformats-officedocument.wordprocessingml.document" />
+            <type name="application/vnd.ms-word.document.macroenabled.12" />
+            <type name="application/msword" />
+            <type name="application/vnd.ms-word.template.macroenabled.12" />
+            <type name="application/vnd.openxmlformats-officedocument.wordprocessingml.template" />
+            <type name="application/x-msword" />
+      </filter>
+    </item>
+    <item name="com.google.android.apps.docs.editors.slides/com.google.android.apps.docs.editors.kix.quickword.QuickWordDocumentOpenerActivityAlias">
+      <filter>
+            <action name="android.intent.action.EDIT" />
+            <cat name="android.intent.category.DEFAULT" />
+            <type name="application/vnd.openxmlformats-officedocument.presentationml.presentation" />
+            <type name="application/vnd.ms-powerpoint" />
+            <type name="application/vnd.openxmlformats-officedocument.presentationml.template" />
+            <type name="application/vnd.ms-powerpoint.presentation.macroenabled.12" />
+            <type name="application/vnd.openxmlformats-officedocument.presentationml.slideshow" />
+            <type name="application/vnd.ms-powerpoint.slideshow.macroenabled.12" />
+            <type name="application/x-mspowerpoint" />
+
+      </filter>
     </item>
 </preferred-activities>
